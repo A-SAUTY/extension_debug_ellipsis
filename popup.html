@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <style>
+        body {
+            font-family: sans-serif;
+            padding: 10px;
+            width: 260px;
+        }
+
+        input,
+        button {
+            width: 100%;
+            font-size: 14px;
+            padding: 8px;
+            margin-bottom: 8px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+
+<body>
+    <form id="replaceForm">
+        <input type="text" id="selectorInput" placeholder="Ex: .mon-widget ou ar-list" required />
+        <input type="number" id="charCountInput" placeholder="Nombre de mots" min="1" max="250" value="10" required />
+        <button type="submit">Remplacer le texte</button>
+    </form>
+
+    <button id="restoreBtn">Restaurer le texte</button>
+
+    <script src="popup.js"></script>
+</body>
+
+</html>

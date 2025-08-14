@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "Debug Ellipsis",
+    "version": "1.0",
+    "description": "Remplace les textes par des caractères.",
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": "icon.png"
+    },
+    "permissions": [
+        "scripting",
+        "activeTab"
+    ],
+    "host_permissions": [
+        "<all_urls>"
+    ],
+    "icons": {
+        "64": "icon.png"
+    }
+}
