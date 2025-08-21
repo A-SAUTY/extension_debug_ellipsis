@@ -50,7 +50,7 @@ document.getElementById("replaceForm").addEventListener("submit", async (e) => {
 
       elements.forEach((el) => replaceTextNodes(el));
       console.log(
-        `Texte remplacé dans ${elements.length} élément(s) avec ${count} caractères.`
+        `Texte remplacé dans ${elements.length} élément(s) avec ${count} mots.`
       );
     },
     args: [selector, charCount, words],
