@@ -6,12 +6,12 @@ Cette extension permet de remplacer le texte dans un ou plusieurs éléments HTM
 
 ## 📦 Installation
 
-1. **Dézippez** ce fichier `.zip` dans un dossier local.
+1. **Décompressez** le fichier .zip dans un dossier local. (Ce dossier ne devra pas être supprimé, car le navigateur exécutera le code directement depuis celui-ci.)
 2. Ouvrez Google Chrome (ou un navigateur basé sur Chromium).
 3. Accédez à [`chrome://extensions`](chrome://extensions)
 4. Activez le **Mode développeur** (coin supérieur droit).
 5. Cliquez sur **"Charger l’extension non empaquetée"**.
-6. Sélectionnez le dossier contenant le fichier `manifest.json`.
+6. Sélectionnez votre dossier local.
 
 ✅ L’extension est maintenant installée ! Elle apparaîtra dans la barre d’extensions.
 
@@ -22,9 +22,9 @@ Cette extension permet de remplacer le texte dans un ou plusieurs éléments HTM
 1. Cliquez sur l’icône de l’extension dans la barre.
 2. Remplissez :
    - **Sélecteur CSS** (ex. `.ma-classe`, `#mon-id`, `ar-list`)
-   - **Nombre de caractères** (ex. 64)
+   - **Nombre de mots** (ex. 64)
 3. Utilisez les boutons :
-   - `Remplacer le texte` : applique des `x` à tous les textes ciblés.
+   - `Remplacer le texte` : remplace tous les textes ciblés.
    - `Restaurer le texte` : remet les textes d’origine (tant que la page n’a pas été rechargée).
 
 ---
